@@ -1,0 +1,423 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpine Ski & Snowboard</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      body{
+  min-height: 100vh;
+  width: 100%;
+  background: #c8e8e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerC{
+  width: 50%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  margin-left: 400px;
+  margin-top: 100px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.containerC .contentC{
+  display: flex;
+  
+  
+}
+.containerC .contentC .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+
+}
+
+.contentC .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.contentC .left-side .details i{
+  font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+.contentC .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+.contentC .left-side .details .text-one,
+.contentC .left-side .details .text-two{
+  font-size: 14px;
+  color: #afafb6;
+}
+.containerC .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+.contentC .right-side .topic-text{
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
+}
+.right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: #5029bc;
+}
+
+@media (max-width: 950px) {
+  .container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .container .content .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .container{
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container .content{
+    flex-direction: column-reverse;
+  }
+ .container .content .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .container .content .left-side::before{
+   display: none;
+ }
+ .container .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}
+
+
+
+
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  margin-top: 500px;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+    </style>
+</head>
+<body>
+
+    <div class="banner4">
+        <div class="navbar">
+          <img class="logo" src="./img/logo-alpine.png" alt="">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="sign.html">Sign In</a></li>
+            </ul>            
+        </div>
+
+        <div class="containerC">
+          <div class="contentC">
+            <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">Ulpiane, NP12</div>
+                <div class="text-two">Zija Shemsiu</div>
+              </div>
+              <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+0098 9893 5647</div>
+                <div class="text-two">+0096 3434 5678</div>
+              </div>
+              <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">abc123@gmail.com</div>
+                <div class="text-two">info.abc123@gmail.com</div>
+              </div>
+            </div>
+            <div class="right-side">
+              <div class="topic-text">Send us a message</div>
+              <p>If you have any further questions, you can send us a message from here. It's our pleasure to help you.</p>
+            <form action="#">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name">
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Enter your email">
+              </div>
+              <div class="input-box message-box">
+                
+              </div>
+              <div class="button">
+                <input type="button" value="Send Now" >
+              </div>
+            </form>
+          </div>
+          </div>
+        </div>
+
+        <footer class="site-footer">
+          <div class="containerF">
+            <div class="row">
+              <div>
+                <h6>About</h6>
+                <p>At Alpine Ski & Snowboard, the online ski and snowboard store, of the Alpine group, we offer ski clothing, ski pants, snow boots for all types of skiing such as ski mountaineering, 
+                  and cross-country skiing, ski alpine, snowboard, Nordic skiing, Telemark. 
+                  We stock the best brands: Salomon, The North Face, Atomic, Dakine,
+                   Dynafit, Head, Columbia, Bergans, Eider, Roxy, K2, Salewa, and more. We have at your disposal a wide range of ski products that adapt to the whole family and to all levels, 
+                   from Freestyle skiers, cross-country skiers or beginners.</p>
+                   <h6>WHERE IS Alpine Ski & Snowboard LOCATED?</h6>
+                   <p>Alpine Ski & Snowboardis part of the Alpine group, located in Prishtine (Prishtine, Kosovo). Alpine Ski & Snowboard is an online store specialized in the sale of sports equipment. 
+                    From the Alpine Ski & Snowboard facilities located in Kosovo, all kinds of sports products are shipped all over the world</p>
+                    <h6>FROM WHICH COUNTRIES CAN YOU BUY AT Alpine Ski & Snowboard ?</h6>
+                    <p>From all over the world! Through Alpine Ski & Snowboard you can buy all kinds of sports equipment and we send it directly to your home or to a collection point,
+                      wherever you are in the country. <br> Some of the countries we ship to are Germany, United States,
+                      Albania, United Kingdom, France, Italy, Switzerland, Denmark, Sweden, 
+                      Norway and Russia.</p>
+    
+              </div>
+    
+              
+    
+              <div>
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Sitemap</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="containerF">
+            <div class="row">
+              <div>
+                <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+             <a href="#">Alpine - Ski & Snowboard</a>.
+                </p>
+              </div>
+
+
+    </div>
+
+    
+    
+</body>
+</html>
