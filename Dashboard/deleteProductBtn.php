@@ -6,6 +6,7 @@
     
  
     if ($delete) {
+        
         echo "<script>alert('Deleted!');</script>";
         echo "<script>window.location.href = 'product.php';</script>";
     }

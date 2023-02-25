@@ -39,6 +39,7 @@
                   }else{
                     echo "<script>alert('Is empty!');</script>";
                     header("Location: userEdit.php'?id=$id");
+                    
                   }
                 }
           ?>
