@@ -1,11 +1,16 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpine Ski & Snowboard</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style.css"> 
+
+  
+    <style>
+      
+    </style>
 </head>
 
 
@@ -16,12 +21,15 @@
           <img class="logo" src="./img/logo-alpine.png" alt="">
             <ul>
                 
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-                <li><a href="sign.html">Sign In</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="shop.php">Shop</a></li>
+                <li><a href="locations.php">Locations</a></li>
+                <li><a href="./loginsystem/login_form.php">Sign In</a></li>
+                <li><a href="aboutus.php">About Us</a></li>
             </ul>            
         </div>
+
+        
 
         <div class="content">
             <h1>We are your ultimate <br>Winter experience Provider!</h1>
@@ -35,21 +43,27 @@
             <div class="column">
               
               <div class="txt-1">Cat <br> Skiing
-                <p class="pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptas et veritatis inventore! <br> Quisquam eligendi molestiae, optio quidem <br> tempore sed quam tenetur et
-                     ad sunt neque excepturi iusto culpa impedit fugiat!</p>
+                <p class="pp">It's a thrilling winter adventure that's becoming increasingly popular among ski enthusiasts.<br> 
+                Unlike traditional lift-accessed skiing, Cat skiing allows you to
+                  explore untracked backcountry terrain in the company of experienced guides and a small group of fellow skiers.</p>
                     
               </div>
               
               <div class="txt-2">Backcountry <br> Skiing
-                <p class="pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptas et veritatis inventore! <br> Quisquam eligendi molestiae, optio quidem <br> tempore sed quam tenetur et ad sunt neque excepturi iusto culpa impedit fugiat!</p>
+                <p class="pp">Backcountry skiing is a form of skiing that takes place outside of traditional ski resort boundaries. 
+                   Instead of skiing on groomed runs or lifts, 
+                   backcountry skiers explore the wilderness and the mountains using their own equipment,
+                    their own knowledge of the terrain, and their own physical abilities.
+
+</p>
 
               </div>
 
               <div class="txt-3">Observatory <br> Overnights
-                <p class="pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptas et veritatis inventore! <br> Quisquam eligendi molestiae, optio quidem <br> tempore sed quam tenetur et ad sunt neque excepturi iusto culpa impedit fugiat!</p>
+                <p class="pp">Observatory overnights are a unique and exciting way to experience the wonder of the night sky.
+                   These programs allow you to spend the night at an observatory or astronomy center, where you can 
+                   observe the stars and planets through 
+                  telescopes and learn about the science of astronomy from knowledgeable guides.</p>
              </div>
 
              <div class="row">
