@@ -62,7 +62,6 @@
         $rows = $model->fetch();
         
         if(!empty($rows)){
-          
         foreach($rows as $row){ 
        ?>
         <tr>

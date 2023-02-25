@@ -18,6 +18,7 @@
               $row = $model->edit($id);
  
               if (isset($_POST['update'])) {
+                
                 if (isset($_POST['name']) && isset($_POST['email'])  && isset($_POST['password']) && isset($_POST['user_type'])) {
                      
                     $data['id'] = $id;
@@ -39,7 +40,7 @@
                   }else{
                     echo "<script>alert('Is empty!');</script>";
                     header("Location: userEdit.php'?id=$id");
-                    
+
                   }
                 }
           ?>
