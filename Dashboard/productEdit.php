@@ -49,7 +49,7 @@
             </select><br><br>
     
 
-      <button type="submit" name="update">Edit Product</button>
+      <button type="submit" name="update">Edit Products</button>
     </form>
     
   </div>
