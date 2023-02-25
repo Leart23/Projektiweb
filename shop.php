@@ -7,14 +7,16 @@
     <title>Alpine Ski & Snowboard</title>
 </head>
 <body>
+  
     <div class="banner2">
         <div class="navbar">
           <img class="logo" src="./img/logo-alpine.png" alt="">          
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-                <li><a href="sign.html">Sign In</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="shop.php">Shop</a></li>
+                <li><a href="locations.php">Locations</a></li>
+                <li><a href="./loginsystem/login_form.php">Sign In</a></li>
+                <li><a href="aboutus.php">About Us</a></li>
             </ul>            
         </div>
         
@@ -136,17 +138,7 @@
                 
                 
               </li>
-              <li class="product">
-                <a class="img-wrapper" href="#">
-                  <img src="img/black-diamond-ski-skin-tail-kit.jpg" style="width: 100%;" />
-                </a>
-                <div class="note on-sale">On sale</div>
-                
-                <div class="info">
-                  <div class="title"><a href="#">Black Diamond Ski Skin Tail Kit</a></div>
-                  <div class="price sale">$20.50</div>
-                  
-                </div>
+              
                 
                 
               </li>
@@ -223,20 +215,7 @@
                 
                 
               </li>
-              <li class="product">
-                <a class="img-wrapper" href="#">
-                  <img src="img/oakley-flight-deck-m-prizm-ski-goggles.jpg" style="width: 100%;" />
-                </a>
-                <div class="note on-sale">On sale</div>
-                
-                <div class="info">
-                  <div class="title"><a href="#">Oakley Flight Ski Googlest</a></div>
-                  <div class="price sale">$77.50</div>
-                  
-                </div>
-                
-                
-              </li>
+              
           </ul>
 
           
@@ -312,20 +291,7 @@
                 
                 
               </li>
-              <li class="product">
-                <a class="img-wrapper" href="#">
-                  <img src="img/columbia-snowtrekker--snow-boots.jpg" style="width: 100%;" />
-                </a>
-                <div class="note on-sale">On sale</div>
-                
-                <div class="info">
-                  <div class="title"><a href="#">Springfield Snow Boots</a></div>
-                  <div class="price sale">$70.50</div>
-                  
-                </div>
-                
-                
-              </li>
+              
           </ul>
     
           <footer class="site-footer2">
@@ -354,9 +320,9 @@
                 <div>
                   <h6>Quick Links</h6>
                   <ul class="footer-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
-                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="shop.php">Shop</a></li>
                     <li><a href="">Privacy Policy</a></li>
                     <li><a href="">Sitemap</a></li>
                   </ul>
