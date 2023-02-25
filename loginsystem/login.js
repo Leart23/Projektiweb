@@ -12,6 +12,7 @@ function validateFormLogin(){
 
 
    if(!(emailRegex.test(email))) {
+    
     document.getElementById('erroremail').innerHTML="Please enter a valid email address"; 
    return false;
    }
