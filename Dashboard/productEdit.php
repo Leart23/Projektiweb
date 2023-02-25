@@ -18,6 +18,7 @@
               $row = $model1->edit($id);
  
               if (isset($_POST['update'])) {
+                
                 if (isset($_POST['name']) && isset($_POST['price'])) {
                      
                     $data['id'] = $id;

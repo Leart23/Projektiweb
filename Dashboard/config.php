@@ -13,7 +13,6 @@
             }
             catch(Exception $exc){
                 echo 'Connection failed'.$exc->getMessage();
-                
             }
         }
         

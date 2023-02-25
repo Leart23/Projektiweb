@@ -5,8 +5,7 @@
     $delete = $register->delete($id);
     
  
-    if ($delete) {
-        
+    if ($delete) {     
         echo "<script>alert('Deleted!');</script>";
         echo "<script>window.location.href = 'userDashboard.php';</script>";
     }
